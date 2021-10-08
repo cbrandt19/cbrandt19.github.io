@@ -26,3 +26,14 @@ h1 {
 header {
     background-color: darkgray;
 }
+
+td {
+    border: 2px solid var(--accent_color);
+    margin: 10px;
+    
+}
+
+td img {
+    height: 50px;
+    width: 50px;
+}
