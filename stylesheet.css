@@ -67,12 +67,7 @@ p, h1, h2 {
   }
   
 .column {
-    flex: 30%;
+    width: 50%;
     padding: 5px;
-}
-
-#cfp {
-    height: 150px;
-    width: 300px;
 }
 
