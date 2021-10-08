@@ -31,7 +31,7 @@ td {
     border: 2px solid var(--accent_color);
     margin: 40px;
     height: 120px;
-    width: 120px;
+    width: 140px;
     
 }
 
@@ -59,11 +59,15 @@ p, h1, h2 {
 }
 
 #homePhoto {
-    float: center;
     border: 10px solid gray;
 }
 
 #cfp {
     width: 250px;
     height: 150px;
+}
+
+#aspirations {
+    display: grid;
+    grid-template-rows: 50% 50%;
 }
