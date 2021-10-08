@@ -44,6 +44,8 @@ td img {
 nav a {
     padding-left: 20px;
     padding-right: 20px;
+    text-decoration: none;
+    color: white;
 }
 
 header img:hover {
@@ -53,6 +55,7 @@ header img:hover {
 p, h1, h2 {
     border: 3px solid var(--accent2_color);
     background-color: var(--accent_color);
+    padding: 30px;
 }
 
 #homePhoto {
