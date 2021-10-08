@@ -67,6 +67,6 @@ p, h1, h2 {
   }
   
 .column {
-    flex: 20%;
+    width: 20%;
     padding: 5px;
 }
