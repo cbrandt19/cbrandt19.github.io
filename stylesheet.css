@@ -63,14 +63,14 @@ p, h1, h2 {
 }
 
 #cfp {
-    width: 75%;
+    width: 50%;
     height: 400px;
     grid-area: article;
 }
 
 #selfie {
     height: 500px;
-    width: 25%;
+    width: 50%;
     grid-area: aside;
 }
 
