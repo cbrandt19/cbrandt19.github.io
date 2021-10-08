@@ -37,3 +37,12 @@ td img {
     height: 50px;
     width: 50px;
 }
+
+header img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header img:hover {
+    background-color: #818b8a;
+}
