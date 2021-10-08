@@ -61,12 +61,8 @@ p, h1, h2 {
 #homePhoto {
     border: 10px solid gray;
 }
-
-.row {
-    display: flex;
-  }
   
-.column {
+.photo {
     width: 50%;
     padding: 5px;
     border: 10px solid gray;
