@@ -48,7 +48,7 @@ nav a {
     color: white;
 }
 
-header img:hover {
+nav a:hover {
     background-color: #818b8a;
 }
 
