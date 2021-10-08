@@ -1,12 +1,19 @@
+:root {
+    --text_color: #3b3a30;
+    --background_color: #c0ded9;
+    --accent_color: #eaece5;
+    --accent2_color: #b2c2bf;
+  }
+
 body {
-    background-color:turquoise;
+    background-color: var(--background_color);
     font-size: 24px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
 nav {
-
+    background-color: var(--accent2_color);
     display: flex;
     flex-direction: row;
     margin: 5px;
@@ -14,4 +21,8 @@ nav {
 
 h1 {
     text-align: center;
+}
+
+header {
+    background-color: darkgray;
 }
