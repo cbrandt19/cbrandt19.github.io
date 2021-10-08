@@ -63,11 +63,17 @@ p, h1, h2 {
 }
 
 #cfp {
-    width: 250px;
-    height: 150px;
+    width: 75%;
+    height: 400px;
+    grid-area: article;
 }
 
 #selfie {
     height: 500px;
-    width:300px;
+    width: 25%;
+    grid-area: aside;
+}
+
+#aspirations {
+    grid-template-areas: article aside;
 }
