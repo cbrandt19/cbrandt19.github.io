@@ -62,3 +62,8 @@ p, h1, h2 {
     float: center;
     border: 10px solid gray;
 }
+
+#cfp {
+    width: 250px;
+    height: 150px;
+}
