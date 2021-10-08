@@ -62,18 +62,12 @@ p, h1, h2 {
     border: 10px solid gray;
 }
 
-#cfp {
-    width: 50%;
-    height: 400px;
-    grid-area: article;
-}
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
 
-#selfie {
-    height: 500px;
-    width: 50%;
-    grid-area: aside;
-}
-
-#aspirations {
-    grid-template-areas: "article aside";
-}
