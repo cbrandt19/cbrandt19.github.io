@@ -17,6 +17,7 @@ nav {
     display: flex;
     flex-direction: row;
     margin: 5px;
+    justify-content: space-evenly;
 }
 
 h1 {
@@ -29,13 +30,16 @@ header {
 
 td {
     border: 2px solid var(--accent_color);
-    margin: 10px;
+    margin: 40px;
+    height: 120px;
+    width: 120px;
     
 }
 
 td img {
-    height: 50px;
-    width: 50px;
+    height: 100%;
+    width: 100%;
+
 }
 
 header a {
