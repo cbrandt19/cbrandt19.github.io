@@ -9,6 +9,9 @@ nav {
 
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     margin: 5px;
+}
+
+h1 {
+    text-align: center;
 }
