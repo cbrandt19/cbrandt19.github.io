@@ -1,0 +1,14 @@
+body {
+    background-color:turquoise;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+nav {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5px;
+}
