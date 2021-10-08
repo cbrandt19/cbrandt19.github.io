@@ -17,7 +17,6 @@ nav {
     display: flex;
     flex-direction: row;
     margin: 5px;
-    justify-content: space-evenly;
 }
 
 h1 {
@@ -42,9 +41,9 @@ td img {
 
 }
 
-header a {
-    padding-left: 10px;
-    padding-right: 10px;
+nav a {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 header img:hover {
@@ -54,4 +53,9 @@ header img:hover {
 p, h1, h2 {
     border: 3px solid var(--accent2_color);
     background-color: var(--accent_color);
+}
+
+#homePhoto {
+    float: center;
+    border: 10px solid gray;
 }
