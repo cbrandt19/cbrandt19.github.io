@@ -48,3 +48,8 @@ a:hover {
 #zen-supporting {
     background-color: rgba(172, 104, 104, 0.2);
 }
+
+aside {
+    float:right;
+    border: 3px maroon;
+}
