@@ -64,6 +64,5 @@ aside {
 }
 
 .page-wrapper {
-    grid-template-areas: 'intro intro;'
-    'main aside';
+    grid-template-areas: 'intro intro''main aside';
 }
