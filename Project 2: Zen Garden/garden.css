@@ -47,10 +47,20 @@ a:hover {
 
 #zen-supporting {
     background-color: rgba(172, 104, 104, 0.2);
+    grid-area: main;
 }
 
 aside {
     float:right;
     border: 3px maroon;
     position: absolute;
+    grid-area: sidebar;
+}
+.intro {
+    grid-area: intro;
+}
+
+.page-wrapper {
+	display: grid;
+	grid-template-areas: 'intro sidebar' 'main sidebar'
 }
