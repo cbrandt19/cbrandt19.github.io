@@ -6,7 +6,7 @@ html {
 body {
     font: small-caps 14px Garamond, times, Arial;
     line-height: 1.3;
-    color: lightgray;
+    color: darkslateblue;
     background: rgba(0, 0, 0, 0.25) url(https://i1.wp.com/www.estidia.eu/wp-content/uploads/2018/04/Savin-NY-Website-Background-Web.jpg?fit=848%2C477) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -16,4 +16,9 @@ body {
 
 p {
     background-color: rgba(10, 10, 10, 0.20)
+}
+
+h1 {
+    text-align: center;
+    background-color: black;
 }
