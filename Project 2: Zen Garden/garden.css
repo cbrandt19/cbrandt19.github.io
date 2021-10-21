@@ -29,3 +29,12 @@ p {
     text-align: left;
 
 }
+
+a {
+    text-decoration: none;
+    color:deepskyblue;
+}
+
+a:hover {
+    background-color: purple;
+}
