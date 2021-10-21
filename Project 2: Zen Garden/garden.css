@@ -28,6 +28,10 @@ header {
     background-color: black;
 }
 
+#zen-supporting {
+    background-color: rgba(61, 49, 49, 0.2)
+}
+
 p {
     width: 75%;
     text-align: left;
