@@ -64,10 +64,11 @@ aside {
 }
 
 .page-wrapper {
-    grid-template-areas: 'intro intro''main aside';
+    grid-template-areas: 'intro intro'
+    'main aside';
 }
 
 div:hover {
     opacity: .75;
-    border: 3px black;
+    border: 5px black;
 }
