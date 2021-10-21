@@ -17,7 +17,7 @@ body {
 header {
     background-color: maroon;
     color: black;
-    font-size: 40px;
+    margin: 20px;
     text-align: center;
 }
 
@@ -52,4 +52,5 @@ a:hover {
 aside {
     float:right;
     border: 3px maroon;
+    position: absolute;
 }
