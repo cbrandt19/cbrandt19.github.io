@@ -66,3 +66,7 @@ aside {
 .page-wrapper {
     grid-template-areas: 'intro intro''main aside';
 }
+
+div:hover {
+    opacity: .75;
+}
