@@ -47,21 +47,11 @@ a:hover {
 
 #zen-supporting {
     background-color: rgba(172, 104, 104, 0.2);
-    grid-area: main;
 }
 
 aside {
     float:right;
     border: 3px maroon;
-    grid-area: sidebar;
-}
-.intro {
-    grid-area: intro;
-}
-
-.page-wrapper {
-	display: grid;
-	grid-template-areas: 
-    'intro sidebar'
-    'main sidebar';
+    margin-left: 5px;
+    border-left: 10px black;
 }
