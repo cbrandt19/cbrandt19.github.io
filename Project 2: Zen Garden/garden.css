@@ -18,6 +18,10 @@ section {
     background-color: rgba(10, 10, 10, 0.20)
 }
 
+div {
+    background-color: rgba(0, 0, 0, 0.20)
+}
+
 header {
     font-size: 40px;
     text-align: center;
@@ -37,4 +41,5 @@ a {
 
 a:hover {
     background-color: purple;
+    color: white;
 }
