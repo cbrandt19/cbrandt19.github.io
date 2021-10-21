@@ -62,5 +62,5 @@ aside {
 
 .page-wrapper {
 	display: grid;
-	grid-template-areas: 'intro sidebar' 'main sidebar'
+	grid-template-areas: 'intro sidebar' 'main sidebar';
 }
