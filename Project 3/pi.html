@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MemorizePi</title>
+    <link href="pi.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <div id="intro">
+    <p><h1>Welcome!</h1><br> This JavaScript project is designed to help you learn the first 100 digits of Pi!</p>
+    <p><mark>Don't worry, practice makes perfect!</mark></p>
+    <br>
+    </div>
+    <button id="restart">Restart</button>
+    <button id="showHS"> High Score</button>
+    <button id="revealPi">Reveal Pi</button>
+    <h4 id="HS" hidden>High Score: 0</h4>
+    
+    <p id="piPrefix">3     .</p>
+    <p id="game"></p>
+    
+    <div id="buttons">
+      <div id="row1-3">
+      <button id="button1">1</button>
+      <button id="button2">2</button>
+      <button id="button3">3</button>
+      </div>
+      <div id="row4-6">
+      <button id="button4">4</button>
+      <button id="button5">5</button>
+      <button id="button6">6</button>
+      </div>
+      <div id="row7-9">
+      <button id="button7">7</button>
+      <button id="button8">8</button>
+      <button id="button9">9</button>
+      </div>
+      <div id="row0-0">
+      <button id="button0">0</button>
+      </div>
+  
+    </div>
+
+    <p hidden id="piCheat">3.1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679</p>
+    <script src="pi.js"></script>
+  </body>
+</html>
