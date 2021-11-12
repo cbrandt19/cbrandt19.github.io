@@ -20,8 +20,7 @@ function restart()
 {
   index = 0;
   document.getElementById("piPrefix").innerHTML = "3    .";
-  imageOffset = window.innerWidth / 2;
-  /*imageOffset = 565; */
+  imageOffset = 565;
 }
 
 function gameOver()
