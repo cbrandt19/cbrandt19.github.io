@@ -40,6 +40,8 @@ function gameOver()
   {
     document.getElementById("piPrefix").innerHTML = "Game Over!";
   }
+
+  setTimeout(restart, 3000);
 }
 
 function addToPrefix()
