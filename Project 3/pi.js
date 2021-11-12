@@ -87,7 +87,7 @@ button0.addEventListener("click", function(){ checkNumb(0)});
 $("#showHS").click(function() {
     $highScore.toggle("normal");
 });
-$("#restart").click(restart);
+$("#restart").click(gameOver);
 $("#revealPi").click(function() {
   $("#piCheat").fadeToggle("slow");
 });
