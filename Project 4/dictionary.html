@@ -19,7 +19,7 @@
 
     <div id="interface">
       <label for="input" id="wordLabel"><b>Enter a Word: </b></label><br>
-      <input type="text" id="input" placeholder="word"><br>
+      <input type="text" id="input" placeholder="word" onfocus="this.placeholder = ''" onblur="this.placeholder = 'word'"><br>
       <button id="convertBtn" class="effect">Search</button>
     </div>
     
