@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Caden's Dictionary</title>
+    <!-- http://fian.my.id/Waves/ -->
+    <link rel="stylesheet" href="waves.min.css">
+    <link href="dictionary.css" rel="stylesheet" type="text/css" />
+    <script src="dictionary.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+  </head>
+  <body>
+    <div id="intro">
+      <h1>Dictionary</h1>
+      <h4><i>Look up words in the dictionary</i></h6>
+    </div>
+
+    <div id="interface">
+      <label for="input" id="wordLabel"><b>Enter a Word: </b></label><br>
+      <input type="text" id="input" placeholder="word"><br>
+      <button id="convertBtn" class="effect">Search</button>
+    </div>
+    
+    <div id="output">
+      <div id="original">
+        <div>
+          <h1 id="Word"></h1>
+          
+          <input type="image" id="audioTag" src="https://media.istockphoto.com/vectors/grey-speaker-volume-icon-audio-voice-sound-symbol-media-music-icon-vector-id1154995348" alt="audioImg" witdth="50px" height="50px" onclick="playAudio()">
+
+          <p><i id="POS"></i></p>
+        </div>
+          <h2 id="def"></h2>
+        <div id="altBtnDiv">
+          <button id="altBtn">Alternate Definition</button>
+        </div>
+      </div>
+
+      
+      <div id="alt">
+        <button id="back">Back</button>
+        <h1 id="altWord"></h1>
+        <p><i id="altPOS"></i></p>
+        <h2 id="altDef"></h2>
+      </div>
+    </div>
+
+    <!-- http://fian.my.id/Waves/ -->
+    <script src="waves.min.js"></script>
+  </body>
+</html>
