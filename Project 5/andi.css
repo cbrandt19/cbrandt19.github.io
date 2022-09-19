@@ -1,9 +1,13 @@
 html
 {
-    background-color: cadetblue;
+    background-color: rgba(10, 100, 20, 40);
 }
 
 nav
 {
-    border: 10px solid cornflowerblue;
+    border: 10px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
 }
